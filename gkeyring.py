@@ -76,7 +76,6 @@ When a new keyring item is created, its ID is printed out on the output.'''
         parser.add_argument('-k', '--keyring', help='keyring name [default: '
             'default keyring]', dest=self.keyring)
         parser.add_argument('--id', type=int, nargs='+',
-            metavar='ID1 [ID2 ...]',
             help='key ID, separate multiple with a space')
         parser.add_argument('-n', '--name',
             help='keyring item descriptive name [exact match for querying, '
